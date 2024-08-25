@@ -18,7 +18,7 @@ function scrollAtivo (){
         ul.classList.remove("ativo");
         document.querySelector(".menu-icon img").src = "./Images/menu.png";
     }
-
+}
 
 menuIcon.addEventListener("click",menuAtivo);
 home.addEventListener("click", scrollAtivo);
